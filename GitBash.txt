@@ -23,18 +23,15 @@ Linux terminal (GitBash on Windows) commands:
 **
 1) Отправить http запрос на сервер.	http://162.55.220.72:5005/terminal-hw-request	- curl "http://162.55.220.72:5005/get_method?name=Marian&age=25"
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13  		- Создать файл  homework.sh
-																- Внутри файла:	
-
-																	#!/bin/bash
-																	#sctript HW-Gitbash
-
-																	mkdir gitbash-script
-																	cd gitbash-script
-																	mkdir gb-scrpt-here
-																	cd gb-scrpt-here
-																	touch info{1..3}.txt footer.txt title.txt
-																	mkdir background{1..3}
-																	посмотреть содержимое папки:
-																	ls -la
-																	mv info1.txt title.txt ~/test-script/gbash
-																- Вводим команду sh homework.sh в Gitbash
+ Внутри файла:	
+#!/bin/bash
+#sctript HW-Gitbash
+mkdir gitbash-script
+cd gitbash-script
+mkdir gb-scrpt-here
+cd gb-scrpt-here
+touch info{1..3}.txt footer.txt title.txt
+mkdir background{1..3}
+ls -la
+mv info1.txt title.txt ~/test-script/gbash
+- Вводим команду sh homework.sh в Gitbash

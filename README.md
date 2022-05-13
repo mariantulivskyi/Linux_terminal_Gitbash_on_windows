@@ -66,3 +66,5 @@ touch info{1..3}.txt footer.txt title.txt
 mkdir background{1..3}
 ls -la
 mv info1.txt title.txt ~/test-script/gbash 
+
+**Вводим команду sh homework.sh в Gitbash**
